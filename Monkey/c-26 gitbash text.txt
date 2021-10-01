@@ -1,0 +1,132 @@
+
+acer@LAPTOP-T7E65FGR MINGW64 ~
+$ cd
+
+acer@LAPTOP-T7E65FGR MINGW64 ~
+$ git -- version
+unknown option: --
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+acer@LAPTOP-T7E65FGR MINGW64 ~
+$ git --version
+git version 2.31.1.windows.1
+
+acer@LAPTOP-T7E65FGR MINGW64 ~
+$ git config --global user,name "Aaditya-Govil"
+error: key does not contain a section: user,name
+
+acer@LAPTOP-T7E65FGR MINGW64 ~
+$ ^C
+
+acer@LAPTOP-T7E65FGR MINGW64 ~
+$ git config --global user.name "Aaditya-Govil"
+
+acer@LAPTOP-T7E65FGR MINGW64 ~
+$ git config --global user.email "AadityaGovil20@gmail.com"
+
+acer@LAPTOP-T7E65FGR MINGW64 ~
+$ pwd
+/c/Users/acer
+
+acer@LAPTOP-T7E65FGR MINGW64 ~
+$ cd /c/Users/acer/Documents/Aaditya/Whitehat Jr/
+bash: cd: too many arguments
+
+acer@LAPTOP-T7E65FGR MINGW64 ~
+$ ^C
+
+acer@LAPTOP-T7E65FGR MINGW64 ~
+$  cd /c/Users/acer/Documents/Aaditya/
+
+acer@LAPTOP-T7E65FGR MINGW64 ~/Documents/Aaditya
+$ cd /Whitehat-Jr/
+bash: cd: /Whitehat-Jr/: No such file or directory
+
+acer@LAPTOP-T7E65FGR MINGW64 ~/Documents/Aaditya
+$
+
+acer@LAPTOP-T7E65FGR MINGW64 ~/Documents/Aaditya
+$ cd /Whitehat_Jr/
+bash: cd: /Whitehat_Jr/: No such file or directory
+
+acer@LAPTOP-T7E65FGR MINGW64 ~/Documents/Aaditya
+$ cd /Whitehat Jr/
+bash: cd: too many arguments
+
+acer@LAPTOP-T7E65FGR MINGW64 ~/Documents/Aaditya
+$ cd /Whitehat-Jr\
+> cd /Whitehat\Jr/
+bash: cd: too many arguments
+
+acer@LAPTOP-T7E65FGR MINGW64 ~/Documents/Aaditya
+$ mkdir c-26
+
+acer@LAPTOP-T7E65FGR MINGW64 ~/Documents/Aaditya
+$ cd /c-26/
+bash: cd: /c-26/: No such file or directory
+
+acer@LAPTOP-T7E65FGR MINGW64 ~/Documents/Aaditya
+$ cd c-26/
+
+acer@LAPTOP-T7E65FGR MINGW64 ~/Documents/Aaditya/c-26
+$ git clone https://github.com/whitehatjr/angryBirdsStage2
+Cloning into 'angryBirdsStage2'...
+remote: Enumerating objects: 38, done.
+remote: Total 38 (delta 0), reused 0 (delta 0), pack-reused 38
+Receiving objects: 100% (38/38), 2.54 MiB | 4.34 MiB/s, done.
+Resolving deltas: 100% (10/10), done.
+
+acer@LAPTOP-T7E65FGR MINGW64 ~/Documents/Aaditya/c-26
+$ cd angryBirdsStage2/
+
+acer@LAPTOP-T7E65FGR MINGW64 ~/Documents/Aaditya/c-26/angryBirdsStage2 (master)
+$ ls
+BaseClass.js  Bird.js  Box.js  Ground.js  Log.js  Pig.js  README.md  index.html  matter.js  p5.dom.min.js  p5.min.js  p5.sound.min.js  sketch.js  sprites/  style.css
+
+acer@LAPTOP-T7E65FGR MINGW64 ~/Documents/Aaditya/c-26/angryBirdsStage2 (master)
+$ git.stasis
+bash: git.stasis: command not found
+
+acer@LAPTOP-T7E65FGR MINGW64 ~/Documents/Aaditya/c-26/angryBirdsStage2 (master)
+$ git statis
+git: 'statis' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+acer@LAPTOP-T7E65FGR MINGW64 ~/Documents/Aaditya/c-26/angryBirdsStage2 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   sketch.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+acer@LAPTOP-T7E65FGR MINGW64 ~/Documents/Aaditya/c-26/angryBirdsStage2 (master)
+$ git add sketch.js
+
+acer@LAPTOP-T7E65FGR MINGW64 ~/Documents/Aaditya/c-26/angryBirdsStage2 (master)
+$ git commit -m "hello i added a platform :P"
+[master bfd20c6] hello i added a platform :P
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+acer@LAPTOP-T7E65FGR MINGW64 ~/Documents/Aaditya/c-26/angryBirdsStage2 (master)
+$ git remote add Platform https://github.com/Aaditya-Govil/c-26.git
+
+acer@LAPTOP-T7E65FGR MINGW64 ~/Documents/Aaditya/c-26/angryBirdsStage2 (master)
+$ git push -u Platform
+
+acer@LAPTOP-T7E65FGR MINGW64 ~/Documents/Aaditya/c-26/angryBirdsStage2 (master)
+$ ^C
+
+acer@LAPTOP-T7E65FGR MINGW64 ~/Documents/Aaditya/c-26/angryBirdsStage2 (master)
+$
